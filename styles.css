@@ -129,11 +129,25 @@ button:hover {
     gap: 10px;
   }
   .main-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: normal;
     padding: 50px;
     margin: auto 10px;
     margin-left: -20px;
+    gap: 20px;
+  }
+
+  .content {
+    margin-top: -50px;
+  }
+
+  .content h1 {
+    font-size: 46px;
+  }
+
+  .content h1,
+  p {
+    text-align: center;
   }
 
   form div input {
